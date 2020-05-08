@@ -2,5 +2,5 @@
 
 ## Set up Accounts
 
-![Set up accounts](/Screenshots/create_accounts.png)
+![Set up accounts](Blockchain_Project/Screenshots/create_accounts.png)
 
