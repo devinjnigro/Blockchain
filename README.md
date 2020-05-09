@@ -6,7 +6,7 @@ As seen below, the first step was to create two accounts at node_1 and node_2. B
 ![Set up accounts](Blockchain_Project/Screenshots/create_accounts.png)
 
 ## Set up Genesis Block
-The next step was to initiate the genesis block. I navigated into the Blockchain_Project directory and ran ../puppeth. I followed the prompts to configure a new genesis, select proof-of-authority consensus, and then I pre-funded the accounts created in the step above.
+The next step was to initiate the genesis block. I navigated into the Blockchain_Project directory and ran ../puppeth. I followed the prompts to configure a new genesis, selected proof-of-authority consensus, chose a chainID to use later, and then I pre-funded the accounts created in the step above.
 
 ![Set up genesis](Blockchain_Project/Screenshots/genesis_block_page_1.png)
 
@@ -44,9 +44,17 @@ I then logged into node_1's account using the keystore file generated when I cre
 
 ![init node_1](Blockchain_Project/Screenshots/unlock_node1_wallet_keystore.png)
 
+I verified that the account balance had increased from 0.
+
 ![init node_1](Blockchain_Project/Screenshots/wallet.png)
 
+## Transaction
+I sent a transaction of 1,000 ETH from the node_1 account to the node_2 account.
 
+![init node_1](Blockchain_Project/Screenshots/send_transaction.png)
 
+Finally, I viewed the transaction confirmation, which includes the transaction hash, fee, etc.
+
+![init node_1](Blockchain_Project/Screenshots/transaction_confirmation.png)
 
 
